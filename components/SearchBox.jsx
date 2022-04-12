@@ -2,7 +2,7 @@ import React from 'react'
 
 const styles = {
     search: `relative`,
-    inputBox:`text-center mt-12 md:border-2 py-4 w-[670px] rounded-lg md:shadow-sm placeholder:text-center bg-transparent outline-none text-lg text-[#707070] placeholder-white`,
+    inputBox:`text-center md:border-2 py-4 w-[670px] rounded-lg md:shadow-sm placeholder:text-center bg-transparent outline-none text-lg text-[#707070] placeholder-white`,
 }
 
 export default function SearchBox() {
