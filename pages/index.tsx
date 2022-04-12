@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-
+import Head from 'next/head';
+import SearchBox from '../components/SearchBox';
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +9,12 @@ const Home: NextPage = () => {
         <title>Weather App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <div>
+        <div>
+          {/* Search Bar */}
+          <SearchBox />
+        </div>
+      </div>
     </div>
   )
 }
